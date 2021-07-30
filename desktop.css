@@ -1,0 +1,106 @@
+/*feuille de style desktop 1200px*/
+/*variables*/ 
+:root {
+    --black: #181818;
+    --white: #ffffff;
+    --gray: #eeeeee;
+    --gray-light: #fbfbfb;
+    --font-body: 'PT Sans', sans-serif;
+    --font-title: 'Libre Baskerville', serif;
+}
+@media (min-width:1200px){
+
+    /*header*/
+
+    header nav ul{
+        opacity: 100%;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+        margin-bottom: 0;
+        margin-left: 775px;
+    }
+    header li a{
+        text-decoration: none;
+        color: var(--black);
+    }
+    header .menu{
+        opacity: 0;
+    }
+    .heading .logo{
+        margin-left: 250px;
+    }
+
+    header .unicorn{
+        width: 30%;
+    }
+    .container{
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+    /*main*/
+    /*section 1 branding*/
+    
+    main .branding{
+        background-image: url(images/projects/project_1.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        padding: 325px 0;
+        position: relative;
+        margin-bottom: 10%;
+    }
+         main .branding p{
+            position:absolute;
+            width: 20%;
+            left: 5%;
+            font-weight: bold;;
+        }
+    
+        /*section 2 showing*/
+    main .showing{
+        background-image: url(images/projects/project_3.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        padding: 325px 0;
+        position: relative;
+    }
+        main .showing p{
+            position: absolute;
+            width: 20%;
+            left: 5%;
+            font-weight: bold;
+        }
+        main a{
+            display: none;
+        }
+        /*section 3 sounds*/
+        main .sounds{
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row-reverse;
+        }
+        main .sounds img{
+            width: 40%;
+        }
+        main .sounds div{
+            display: block;
+            margin:auto;
+        }
+        main .sounds a{
+            display: inline;
+        }
+        main .sounds p{
+            font-size: 3em;
+            line-height: 10px;
+        }
+    /*footer*/
+        footer .icone{
+            display: flex;
+            justify-content: right;
+            border: none;
+        }
+        .icone svg{
+            border: none;
+    }
+}
