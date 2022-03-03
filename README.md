@@ -1,6 +1,7 @@
 # Unicorn
+Dans le cadre d'un exercice d'intégration durant la formation avec Access Code School - nous devions faire cette page en 3h 
 
-## Spécifications
+## Consignes
 
 Couleurs :
 
@@ -39,7 +40,9 @@ Aucune animation ou transition.
 Rien ne vous empêche d'en ajouter pour animer le template une fois celui-ci intégré.
 
 
-# Preview
+# Résultat atttendu
+
+Veuillez cliquer sur le lien en haut à droite pour voir mon résultat
 
 ![Preview mobile](preview_mobile.png)
 ![Preview desktop](preview_desktop.png)
